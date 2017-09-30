@@ -1,4 +1,10 @@
-Esto es una prueba para comprobar el funcionamiento de Git
 
-Esta línea la escribo para hacer una modificación:
-	el cielo es blue.
+<html>
+	<head>
+		<title>PRUEBA</title>
+	</head>
+	<body>
+		<h1>Probando GIT</h1>
+		<p>Esto es una prueba para comprobar el funcionamiento de Git ante los posibles conflictos conflictos</p>
+	</body>
+</html>
