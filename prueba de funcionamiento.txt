@@ -4,7 +4,7 @@
 		<title>PRUEBA</title>
 	</head>
 	<body>
-		<h1>Probando GIT</h1>
-		<p>Esto es una prueba para comprobar el funcionamiento de Git ante los posibles conflictos conflictos</p>
+		<h2>Probando GIT</h2>
+		<p>Prueba para comprobar el funcionamiento de Git ante los posibles conflictos conflictos</p>
 	</body>
 </html>
