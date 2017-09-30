@@ -1,0 +1,4 @@
+Esto es una prueba para comprobar el funcionamiento de Git
+
+Esta línea la escribo para hacer una modificación:
+	el cielo es blue.
