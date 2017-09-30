@@ -5,6 +5,7 @@
 	</head>
 	<body>
 		<h2>Probando GIT</h2>
-		<p>Prueba para comprobar el funcionamiento de Git ante los posibles conflictos conflictos</p>
+		<p>Prueba para comprobar el funcionamiento de Git</p>
+		<p><b>resolución de conflictos</p></b></p>
 	</body>
 </html>
