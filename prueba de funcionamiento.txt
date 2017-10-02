@@ -1,10 +1,11 @@
 
 <html>
 	<head>
-		<title>PRUEBA</title>
+		<title>Probando GIT</title>
 	</head>
 	<body>
-		<h1>Probando GIT</h1>
-		<p>Esto es una prueba para comprobar el funcionamiento de Git ante los posibles conflictos conflictos</p>
+		<h1>Resolución de Confictos</h1>
+		<p>Esto es una prueba para comprobar el funcionamiento de Git ante los posibles conflictos</p>
+		<p>En este caso añado modificaciones que van a entrar en conflicto con este fichero en otra rama, ya que son modificaciones en mismo archivo y mismas líneas</p>
 	</body>
 </html>
