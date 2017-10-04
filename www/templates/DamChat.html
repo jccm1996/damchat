@@ -1,0 +1,30 @@
+<ion-view title="DamChat">
+
+    
+    <div class="tabs-striped tabs-background-royal tabs-color-light">
+        <div class="tabs">
+          <a class="tab-item active" ui-sref="DamChat">
+            <i class="icon ion-chatboxes"></i>
+          </a>
+          <a class="tab-item" ui-sref="#">
+            <i class="icon ion-person-stalker"></i>
+          </a>
+          <a class="tab-item" ui-sref="ajustes">
+            <i class="icon ion-gear-a"></i>
+          </a>
+        </div>
+    </div>
+    
+    <ion-content class="">
+        
+        <div class="list">
+            <a class="item item-avatar" ng-repeat="chat in chats" ui-sref="DamMiChat({id: $index})">
+                    <img src="{{chat.imagen}}">
+                    <h2>{{chat.usuario}}</h2>                    
+                    <p>{{chat.mensaje}}</p>
+            </a>   
+        </div>
+        
+    </ion-content>
+    
+</ion-view>

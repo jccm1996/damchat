@@ -1,0 +1,19 @@
+<ion-view title="Autores">
+    <ion-content class="">
+        <div class="card">
+          <div class="item item-divider">
+            Quiénes somos...
+          </div>
+          <div class="item item-text-wrap">
+            <p>Somos un grupo de estudiantes de 2º curso de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM).
+            Hemos desarrollado esta App para la asignatura Desarrollo de Interfaces.</p>
+            <p>A continuación puede consultar más información sobre nosotros:</p>
+          </div>
+          <a ui-sref="autor({id: $index})" class="item item-icon-left" ng-repeat="autor in autores">
+            <i class="icon ion-university"></i>
+            {{autor.nombre}}
+          </a>
+            
+        </div>
+    </ion-content>
+</ion-view>

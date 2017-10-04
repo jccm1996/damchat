@@ -1,0 +1,45 @@
+<ion-view title="{{chat.usuario}}">    
+   
+    <ion-content scroll="false" class="">
+       
+        <ion-scroll>    
+            <div class="list card">
+                <div class="item item-avatar">
+                        <img src="{{chat.imagen}}">
+                        <h2>{{chat.usuario}}</h2>
+                </div>
+                <div class="item list">
+                        <p class="item">{{chat.mensaje}}</p>
+                        <p class="item">{{chat.mensaje}}</p>
+                        <p class="item">{{chat.mensaje}}</p>
+                        <p class="item">{{chat.mensaje}}</p>                    
+                </div>   
+            </div>
+            <div class="list card text-right">
+                <div class="item item-avatar-right">
+                        <img src="{{chat.imagen}}">
+                        <h2>{{chat.usuario}}</h2>
+                </div>
+                <div class="item list">
+                        <p class="item">{{chat.mensaje}}</p>
+                        <p class="item">{{chat.mensaje}}</p>
+                </div> 
+            </div>
+        </ion-scroll>       
+          
+        <div class="list" style="position:absolute; bottom:0px;">
+
+           <div class="item item-input-inset">
+            <label class="item-input-wrapper">
+              <input type="text" placeholder="Email">
+            </label>
+            <button class="button button-small">
+              Submit
+            </button>
+          </div>                
+        </div>      
+                                                 
+    </ion-content>    
+
+    
+</ion-view>
